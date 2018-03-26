@@ -8,9 +8,9 @@ REQUIREMENTS
 -------------
 PHP Version >= 5.6 with below extension and modules enabled.
 
-php_curl
-php_intl
-mod_rewrite
+php_curl <br />
+php_intl<br />
+mod_rewrite<br />
 
 Note: enable php_intl for command line too for unit test.
 
@@ -21,12 +21,12 @@ Same like other PHP app installation, just copy paste the folder into your publi
 CONFIGURATION
 -------------
 - We have used legacy API for topup, for same. make sure that you set below configurations.
-in TopupHandler class of TopupHandler.php file,
- $apiUrl - Set this variable as base path of your legacy API
- $apiUsername - Set username for legacy API (for http authentication)
- $apiPassword - Set password for legacy API (for http authentication)
- $apiMaxExecutionTime - Currently set to unlimited, this is for setting CURL request timeout
- $smsApiUrl - Set and API url for sending notification SMS to end user.
+in TopupHandler class of TopupHandler.php file,<br /><br />
+ $apiUrl - Set this variable as base path of your legacy API<br />
+ $apiUsername - Set username for legacy API (for http authentication)<br />
+ $apiPassword - Set password for legacy API (for http authentication)<br />
+ $apiMaxExecutionTime - Currently set to unlimited, this is for setting CURL request timeout<br />
+ $smsApiUrl - Set and API url for sending notification SMS to end user.<br /><br />
 
 TESTING
 --------
