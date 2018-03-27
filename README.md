@@ -67,4 +67,4 @@ For any question or support write to me on rupal.javiya@gmail.com
 
 Sample Interface of Caling API
 ------------------------------
-![User Interface](https://github.com/javiya-rupal/topup-functionality/commit/2842fbc5fe59f900fc66c7b684608562173a1987#diff-e5796fa398ee36ff6d2a5777c19b5541)
+![User Interface](https://raw.githubusercontent.com/javiya-rupal/topup-functionality/2842fbc5fe59f900fc66c7b684608562173a1987/docs/api-sample.png)
